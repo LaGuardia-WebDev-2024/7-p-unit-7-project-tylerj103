@@ -11,10 +11,12 @@ draw = function(){
  
   background(255,255,255,0);
   
-
-
-
-
+ellipse(50,350,60,40);
+ellipse(50,344,60,40);
+ellipse(80,350,30,30);
+ellipse(70,370,15,15);
+ellipse(25,365,15,15);
+ellipse(50,370,15,15);
 
   //Show x y values when mousepressed
   if(mousePressed){showXYPositions();}
